@@ -1,7 +1,10 @@
+# Count the words in the given text and return a integer number of the word count
 def count_book_words(book_text):
     words_number = len(book_text.split())
     return words_number
 
+# Count the indivudual characters in the given text.
+# Return a dictionary with <char: count> format.
 def count_book_characters(book_text):
     #first create a dictionary for the <char: count> values
     character_count = {}
